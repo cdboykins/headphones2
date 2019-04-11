@@ -1,0 +1,206 @@
+#dzn-by{
+position: relative;
+top: -100px;
+}
+#dzn-by .design-container{
+position: relative;
+/* background: #4C44C1; */
+overflow: hidden;
+border-radius: 5px;
+background: white;
+/* top: -100px; */
+/* width: 100%; */
+}
+#dzn-by .design-container .bg-container{
+position: relative;
+background: #4C44C1;
+overflow: hidden;
+border-radius: 5px;
+padding: 45px;
+/* top: -100px; */
+/* width: 100%; */
+}
+#dzn-by .design-container:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+#dzn-by .design-container .info-section .bg-image{
+position:  absolute;
+filter: grayscale(80%);
+opacity: 0.1;
+width: 600px;
+z-index: 1;
+top: 0;
+/* margin:  0 0 40px 0; */
+right: 0;
+/* top: -20; */
+
+
+/* -moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH"; */
+
+
+/* top: -100px; */
+/* width: 100%; */
+}
+
+#dzn-by .design-container .info-section{
+/* background: #4C44C1; */
+width:40%;
+display: inline-block;
+float: left;
+/* padding: 45px; */
+position: relative;
+z-index: 2;
+}
+#dzn-by .design-container .info-section h5{
+color: #FEA83B;
+font-size: 1.2rem;
+text-transform: uppercase;
+margin-bottom: 2rem;
+position: relative;
+z-index: 2;
+
+}
+#dzn-by .design-container .info-section h3{
+color: white;
+font-size: 2.5rem;
+margin-bottom: 2rem;
+position: relative;
+z-index: 2;
+
+}
+#dzn-by .design-container .info-section .info-list{
+/* background: red; */
+margin-bottom: 4rem;
+position: relative;
+z-index: 2;
+
+}
+#dzn-by .design-container .info-section .info-list li{
+  list-style: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+
+
+}
+#dzn-by .design-container .info-section .white-btn{
+background: white;
+border-radius:50px;
+padding: 20px 65px;
+text-decoration: none;
+color: #4C44C1;
+font-weight: 700;
+font-size: 1rem;
+display: inline-block;
+position: relative;
+z-index: 2;
+
+}
+#dzn-by .design-container .info-section .info-list i{
+margin: 4px;
+position: relative;
+top: -2px;
+
+}
+#dzn-by .design-container .info-section .info-list .circle{
+  background: orange;
+  display: inline-block;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+  /* -webkit-box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+  -moz-box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+  box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29); */
+
+}
+#dzn-by .design-container .icon-section{
+width:60%;
+background: white;
+display: inline-block;
+float: left;
+position: relative;
+z-index: 2;
+}
+#dzn-by .design-container .icon-section .refresh-circle{
+   position: absolute;
+   left: 45%;
+   top: 41%;
+   width: 80px;
+   height: 80px;
+   background: white;
+   border-radius: 50%;
+   -webkit-box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+   -moz-box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+   box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+
+}
+#dzn-by .design-container .icon-section .refresh-circle .fas{
+   position: relative;
+    color: #FEA83B;
+    font-size: 2.5rem;
+    top: 20px;
+    left: 20px;
+
+}
+#dzn-by .design-container .icon-section .icon-box{
+width:50%;
+height: 226px;
+background: white;
+display: inline-block;
+float: left;
+text-align: center;
+border: 1px solid #F4F5F7;
+color: #6066F2;
+font-size: 1.3rem;
+
+}
+#dzn-by .design-container .icon-section .icon-box .fas, #dzn-by .design-container .icon-section .icon-box .far{
+font-size: 3rem;
+margin-bottom: 2rem;
+margin-top: 70px;
+
+}
+/* Laptop Devices */
+@media only screen and (max-width: 1215px) {
+
+}
+/* TABLET DEVICES */
+@media only screen and (max-width: 1023px) {
+  #dzn-by .design-container .icon-section .refresh-circle{
+    left: 44%;
+  }
+}
+@media only screen and (max-width: 973px) {
+  #dzn-by .design-container .icon-section .refresh-circle{
+    left: 42%;
+  }
+}
+/* MOBIL DEVICES */
+@media only screen and (max-width: 767px) {
+  #dzn-by .design-container .info-section{
+  width:100%;
+  }
+  #dzn-by .design-container .icon-section{
+  width:100%;
+  }
+  #dzn-by .design-container .icon-section .refresh-circle{
+    display: none;
+  }
+  #dzn-by .design-container .info-section .info-list li{
+    line-height: 2;
+  }
+  #dzn-by .design-container .bg-container{
+    padding: 10px;
+  }
+}

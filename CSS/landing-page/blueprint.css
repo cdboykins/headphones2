@@ -1,0 +1,179 @@
+#blueprint{
+  background: #4c44c1; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #4c44c1 0%, #9296ef 45%, #dadbed 97%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #4c44c1 0%,#9296ef 45%,#dadbed 97%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #4c44c1 0%,#9296ef 45%,#dadbed 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* background: #6066F2; */
+  padding: 130px 0 50px 0;
+  color: white;
+border-top: 32px solid black;
+border-bottom: 32px solid black;
+}
+#blueprint .container:after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+#blueprint .left-side{
+width: 60%;
+float: left;
+
+}
+#blueprint .left-side img{
+width: 70%;
+margin-bottom: 10px;
+position: relative;
+top: -30px;
+margin-left: 100px;
+}
+#blueprint .right-side{
+width: 40%;
+float: left;
+margin-top: -5px;
+
+
+}
+#blueprint .right-side h1{
+font-size: 3.5rem;
+font-weight: 700;
+text-transform: capitalize;
+margin-bottom: 70px;
+line-height: 1.2;
+}
+#blueprint .right-side .inform-box{
+padding: 0 0 80px;
+
+}
+#blueprint .right-side .inform-box:after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+#blueprint .right-side .inform-box .col-one{
+width: 40%;
+float: left;
+}
+#blueprint .right-side .inform-box .col-one .icon-container{
+width: 160px;
+height: 160px;
+border-radius: 50%;
+border: 4px solid black;
+position: relative;
+}
+#blueprint .right-side .inform-box .col-one .icon-container .dashed-circle{
+width: 130px;
+height: 130px;
+border-radius: 50%;
+border: 3px dashed red;
+/* border: 3px dashed #6066F2; */
+margin: 0 auto;
+position: absolute;
+top: 10px;
+left: 12px;
+
+}
+#blueprint .right-side .inform-box .col-two{
+width: 60;
+float: left;
+}
+#blueprint .right-side .inform-box .col-two h3{
+font-size: 2rem;
+margin-bottom: 25px;
+margin-top: 30px;
+}
+#blueprint .right-side .inform-box .col-two p{
+font-size: 1rem;
+margin-bottom: 15px;
+}
+#blueprint .right-side .inform-box .col-two a{
+font-size: 1rem;
+text-transform: uppercase;
+text-decoration: none;
+margin-bottom: 15px;
+color: red;
+/* color: #FEA83B; */
+}
+
+#blueprint .right-side .inform-box .col-one .icon-container .fab, #blueprint .right-side .inform-box .col-one .icon-container .fas{
+font-size: 4rem;
+position: absolute;
+top: 44px;
+left: 56px;
+color: black;
+/* color: #FEA83B; */
+
+}
+/* Laptop Devices */
+@media only screen and (max-width: 1215px) {
+
+}
+/* TABLET DEVICES */
+@media only screen and (max-width: 1023px) {
+  #blueprint .left-side{
+  width: 40%;
+
+
+  }
+  #blueprint .right-side{
+  width: 60%;
+  padding-bottom: 5px;
+
+  }
+  #blueprint .left-side img{
+  width: 80%;
+  margin-top: 100px;
+  position: relative;
+  top: 90px;
+  margin-left: 30px;
+  }
+}
+
+/* MOBIL DEVICES */
+@media only screen and (max-width: 767px) {
+
+  #blueprint{
+  padding: 100px 0;
+
+
+  }
+  #blueprint .left-side img{
+  display: none;
+
+
+  }
+  #blueprint .left-side{
+  width: 100%;
+
+
+  }
+  #blueprint .right-side{
+  width: 100%;
+  padding-bottom: 5px;
+
+  }
+  #blueprint .right-side .inform-box .col-one{
+  /* width: 140px;
+  height: 140px;
+  text-align: center; */
+  }
+  #blueprint .right-side .inform-box .col-one .icon-container{
+  width: 140px;
+  height: 140px;
+
+  }
+  #blueprint .right-side .inform-box .col-one .icon-container .dashed-circle{
+  width: 110px;
+  height: 110px;
+
+}
+#blueprint .right-side .inform-box .col-one .icon-container .fab, #blueprint .right-side .inform-box .col-one .icon-container .fas{
+font-size: 3.5rem;
+position: absolute;
+top: 34px;
+left: 46px;
+color: black;
+/* color: #FEA83B; */
+}
+}

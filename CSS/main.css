@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+@import "landing-page/design-by.css";
+@import "landing-page/color-colection.css";
+@import "landing-page/blueprint.css";
+@import "landing-page/latest.css";
+
+
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+.container-fluid{
+
+  margin: 0 5%;
+  padding: 0 30px;
+
+}
+.box-shadow-default{
+  -webkit-box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+  -moz-box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+  box-shadow: 10px 10px 28px -3px rgba(0,0,0,0.29);
+}
+.box-shadow-center{
+  -webkit-box-shadow: 6px 27px 130px -75px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 27px 130px -75px rgba(0,0,0,0.75);
+  box-shadow: 6px 27px 130px -75px rgba(0,0,0,0.75);
+}
+.box-shadow-down{
+  -webkit-box-shadow: 6px 22px 50px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 22px 50px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 22px 50px -6px rgba(0,0,0,0.75);
+}
+input::placeholder{
+  color: #d5e2ea;
+}
+fas{
+  color: #d5e2ea;
+}
+/* Laptop Devices */
+@media only screen and (max-width: 1215px) {
+
+}
+/* TABLET DEVICES */
+@media only screen and (max-width: 1023px) {
+
+}
+/* MOBIL DEVICES */
+@media only screen and (max-width: 767px) {
+
+}
